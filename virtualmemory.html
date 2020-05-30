@@ -1,0 +1,29 @@
+<html>
+<body>
+<h1>Operating Systems</h1>
+
+<h2> Links: </h2>
+<ul>
+  <li><a href="index.html">Introduction</a></li>
+  <li><a href="typesofoperatingsystem.html">Types of Operating System</a></li>
+  <li><a href="memorymanagement.html">Memory Management</a></li>
+  <li><a href="virtualmemory.html">Virtual Memory</a></li>
+  <li><a href="filesystem.html">File System</a></li>
+</ul>
+<h2>Virtual Memory</h2>
+<p>A computer can address more of the memory than the physically installed amount on the system. This extra memory is actually referred to as virtual memory which is a section of a hard disk set up to emulate the RAM of the computer.</p>
+<p>The main obvious advantage of this scheme is that it can be larger than physical memory programs. Virtual memory serves in two forms. Firstly, it allows us to extend the use of physical memory by disk use. Second , it allows us to protect memory, because every virtual address is translated into a physical address.</p>
+<p>Following are the situations when it is not necessary to fully load the entire program in the main memory:</p>
+   <li>User written error handling routines are only used when a data or computation error has occurred.</li>
+   <li>Certain program options and features may be rarely used.</li>
+   <li>A fixed amount of address space is assigned to many tables but only a small amount of the table is actually used.</li>
+   <li>The ability to run a program that's only partially in memory would counter many advantages.</li>
+   <li>The loading or swapping of each user program into memory would require less number of I/O.</li>
+   <li>A program would no longer be constrained by the amount of available physical memory.</li>
+   <li>Each user program could take less physical memory, more programs could be run the same time, with a corresponding increase in CPU utilization and throughput.</li>
+<p>Modern microprocessors intended for general-purpose use, a memory management unit, or MMU, is built into the hardware. The MMU's job is to translate virtual addresses into physical addresses. A basic example is given below −</p>
+<img src="virtualmemory.jpg" alt="Virtual Memory">
+<p>Virtual memory is commonly implemented by request paging. It can also be implemented in a system of segmentation. Virtual memory can also be used to provide segmentation of demand.</p>
+
+</body>
+</html>
